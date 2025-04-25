@@ -1,0 +1,10 @@
+Adding Styles:
+Applied to head of webpage and whichever class you set it up for 
+
+can use style components or css modules 
+
+but for this tutorial:
+separate css styles for diff components 
+
+index.css : global style for components 
+Its imported in index.js

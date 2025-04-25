@@ -1,0 +1,6 @@
+use create reactapp to create boilerplate (its a command)
+* npx create-react-app [nameofapp]
+install node to use npx (modern versions of node|| already have it)
+
+Strict mode gives warnings when in dev 
+
