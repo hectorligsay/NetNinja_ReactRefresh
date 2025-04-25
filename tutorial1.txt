@@ -1,0 +1,12 @@
+What is react?
+Js library to create interactive websites and interfaces : SPA (single page application)
+* init request to server then react takes over and manages whole website in the browser including any website data or click events or routing 
+from page to page 
+
+* React changes all content in the browser 
+* New pages are loaded in fairly quickly using these routes 
+* Traditional websites : every link sends request to server for new html page 
+
+Time to make a mini microblog:
+Using react hooks/custom hooks/state/react router/ how and where to fetch data 
+
