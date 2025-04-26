@@ -1,0 +1,8 @@
+// Ignore all files in the node_modules folder
+node_modules/
+
+// Ignore all files in the .env folder
+.env
+
+// Ignore all of my tutorialNotes
+tutorialNotes/

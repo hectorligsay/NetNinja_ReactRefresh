@@ -8,3 +8,6 @@ separate css styles for diff components
 
 index.css : global style for components 
 Its imported in index.js
+
+Add inline styling:
+Styling the link create new blog
