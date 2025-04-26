@@ -1,8 +1,0 @@
-Dynamic values in templates
-
-We can output a variable instead of hardcoding titles and stuff for dynamic changes.
-
-with these consts, we cannot show bool or objects 
-const person = {name: 'yoshi', age: 30}; <--- This won't work bc object 
-
-We can write dynamic values directly in the curly braces 
