@@ -3,11 +3,9 @@ import Home from "./Home";
 import BlogDetails from "./BlogDetails";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Create";
+import NotFound from "./NotFound";
 
 function App() {
-  const title = "Welcome to the new blog";
-  const likes = 100;
-  const link = "https://www.google.com";
   return (
     <Router>
       <div className="App">
@@ -22,6 +20,11 @@ function App() {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            {/* This is a catch all meaning if all the above does not 
+            apply, then we use this not found component! */}
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
